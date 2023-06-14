@@ -1,14 +1,74 @@
 body{
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+}
+
+
+.menu-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  left: 156px;
+  top:24px;
+  bottom: 24px;
+  height: 24px;
+}
+
+.menu-nav a{
+  width: 115px;
+}
+
+.menu{
+  align-items: flex-start;
+  gap: 40px;
+  width: 261px;
+}
+
+
+.contact-info{
+  position: absolute;
+  width: 344px;
+  height: 24px;
+  margin-left: 940px;
+  margin-top: 24px;
+  margin-right: 156px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  gap: 40px;
 }
 
 .hero{
   background-color: #2E2F42;
-  color: #FFFFFF;
   border: 1px solid #000000;
   height: 600px;
   width: 1440px;
-  border-radius: 0px;
+  position: absolute;
+  top: 72px;
+  left:0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero h1{
@@ -16,13 +76,12 @@ body{
   width: 496px;
   height: 120px;
   margin: 188px 472px 292px 472px;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
 }
 
 .hero button{
@@ -34,13 +93,78 @@ body{
   height: 56px;
   width: 169px;
   margin: 356px 635px 188px 636px;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
+}
+
+.features-section{
+  width: 1128px;
+  height: 104px;
+  margin-top: 792px;
+  margin-left: 156px;
+}
+
+.features-section h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.features-section p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.function-section{
+  width: 1128px;
+  height: 412px;
+  margin-left: 156px;
+  margin-top: 120px;
+}
+
+.function-section h2{
+  text-align: center;
+  color: #2E2F42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
+.team-section{
+  background-color: #F4F4FD;
+  width: 1440px;
+  height: 732px;
+}
+
+.team-section h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2E2F42;
+  padding-top: 120px;
+}
+
+.team-section ul{
+  padding-left:156px;
 }
 
 footer{
   background-color: #2E2F42;
   border: 1px solid #000000;
-  color: #C7C4BF;
+  color: #F4F4FD;
   box-sizing: border-box;
   position: absolute;
   width: 1440px;
