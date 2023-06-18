@@ -12,6 +12,7 @@ ul{
 
 a{
   text-decoration: none;
+  color: #2E2F42;
 }
 
 header{
@@ -47,7 +48,7 @@ header{
   line-height: 21px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42
+  color: #2E2F42;
 }
 
 .menu{
@@ -57,6 +58,11 @@ header{
   margin-left: 76px;
   padding-left:0px;
   padding-right:0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
 
@@ -67,14 +73,17 @@ header{
   margin-left: 940px;
   margin-top: 24px;
   margin-right: 156px;
+  gap: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.contact-info li{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  gap: 40px;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .hero{
@@ -111,6 +120,11 @@ header{
   width: 169px;
   margin: 356px 635px 188px 636px;
   padding: 16px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .features-section{
@@ -141,8 +155,8 @@ header{
 
 .features-section ul{
   gap:24px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .function-section{
@@ -150,6 +164,7 @@ header{
   height: 412px;
   margin-left: 156px;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .function-section h2{
@@ -173,6 +188,7 @@ header{
   background-color: #F4F4FD;
   width: 1440px;
   height: 732px;
+  padding-top: 120px;
 }
 
 .team-section h2{
@@ -181,13 +197,108 @@ header{
   font-size: 36px;
   line-height: 40px;
   color: #2E2F42;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-section ul{
   padding-left:156px;
+  padding-right: 156px;
   gap: 24px;
 }
+
+
+.team-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.team-card p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 586px;
+  height: 48px;
+  left: 427px;
+  top: 96px;
+}
+
+.buttons button{
+  background-color: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  align-items: center;
+  padding: 12px 24px;
+  color: #4D5AE5;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.projects{
+  margin-top: 216px;
+  margin-left: 156px;
+  margin-right: 156px;
+  padding: 0px;
+  gap: 24px;
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card{
+  width: 360px;
+  height: 420px;
+  background-color: #FFFFFF;
+  border: 1px solid #E7E9FC;
+}
+
+.project-card h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin: 32px 54px 8px 16px;
+}
+
+.project-card p{
+  margin: 0px 314px 0px 16px;
+}
+
+
+
 
 footer{
   background-color: #2E2F42;
@@ -197,5 +308,20 @@ footer{
   position: absolute;
   width: 1440px;
   height: 312px;
-  margin-left: 0px;
+  left: 0px;
+}
+
+.footer-text{
+  margin: 100px 1020px 100px 156px;
+}
+
+.logo-footer{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
 }
