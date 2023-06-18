@@ -1,6 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 400px;
   margin: 0px;
 }
 
@@ -79,7 +80,6 @@ header{
 }
 
 .contact-info li{
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -94,7 +94,6 @@ header{
   position: absolute;
   top: 72px;
   left:0px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero h1{
@@ -125,6 +124,7 @@ header{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .features-section{
@@ -142,19 +142,21 @@ header{
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  margin: 0px;
 }
 
 .features-section p{
   width: 264px;
   height: 72px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #434455;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 .features-section ul{
-  gap:24px;
+  column-gap:24px;
   padding: 0px;
   margin: 0px;
 }
@@ -175,6 +177,8 @@ header{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 72px;
 }
 
 .function-section ul{
@@ -188,7 +192,6 @@ header{
   background-color: #F4F4FD;
   width: 1440px;
   height: 732px;
-  padding-top: 120px;
 }
 
 .team-section h2{
@@ -197,13 +200,15 @@ header{
   font-size: 36px;
   line-height: 40px;
   color: #2E2F42;
+  padding-top: 120px;
+  margin-top: 0px;
   margin-bottom: 72px;
 }
 
 .team-section ul{
-  padding-left:156px;
-  padding-right: 156px;
-  gap: 24px;
+  margin: 0px 156px;
+  padding: 0px;
+  column-gap: 24px;
 }
 
 
@@ -230,7 +235,6 @@ header{
 }
 
 .team-card p{
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -264,14 +268,21 @@ header{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
+}
+
+.buttons button:hover{
+  background-color: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #FFFFFF;
 }
 
 .projects{
-  margin-top: 216px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 216px 156px 120px 156px;
   padding: 0px;
-  gap: 24px;
+  column-gap: 20px;
+  row-gap: 48px;
   width: 1128px;
   display: flex;
   flex-wrap: wrap;
@@ -294,7 +305,7 @@ header{
 }
 
 .project-card p{
-  margin: 0px 314px 0px 16px;
+  margin: 0px 279px 0px 16px;
 }
 
 
